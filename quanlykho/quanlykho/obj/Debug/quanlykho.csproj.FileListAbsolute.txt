@@ -1,0 +1,18 @@
+c:\users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\bin\Debug\quanlykho.exe.config
+C:\Users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\bin\Debug\quanlykho.exe
+C:\Users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\bin\Debug\quanlykho.pdb
+C:\Users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\obj\Debug\quanlykho.csprojResolveAssemblyReference.cache
+C:\Users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\obj\Debug\quanlykho.Form1.resources
+C:\Users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\obj\Debug\quanlykho.Properties.Resources.resources
+C:\Users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\obj\Debug\quanlykho.csproj.GenerateResource.Cache
+C:\Users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\obj\Debug\quanlykho.exe
+C:\Users\thang\documents\visual studio 2013\Projects\quanlykho\quanlykho\obj\Debug\quanlykho.pdb
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\bin\Debug\quanlykho.exe.config
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\obj\Debug\quanlykho.exe
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\obj\Debug\quanlykho.pdb
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\bin\Debug\quanlykho.exe
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\bin\Debug\quanlykho.pdb
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\obj\Debug\quanlykho.csprojResolveAssemblyReference.cache
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\obj\Debug\quanlykho.Form1.resources
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\obj\Debug\quanlykho.Properties.Resources.resources
+C:\Users\thang\Desktop\TTnhom\quanlykho\quanlykho\obj\Debug\quanlykho.csproj.GenerateResource.Cache
