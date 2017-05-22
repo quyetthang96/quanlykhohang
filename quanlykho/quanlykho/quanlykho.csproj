@@ -56,8 +56,32 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="formThemnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formThemnhap.Designer.cs">
+      <DependentUpon>formThemnhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thongke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thongke.Designer.cs">
+      <DependentUpon>Thongke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Timkiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timkiem.Designer.cs">
+      <DependentUpon>Timkiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xuathang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xuathang.Designer.cs">
+      <DependentUpon>Xuathang.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -73,6 +97,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Thongke.resx">
+      <DependentUpon>Thongke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timkiem.resx">
+      <DependentUpon>Timkiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xuathang.resx">
+      <DependentUpon>Xuathang.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace quanlykho
 {
-    public partial class Form2 : Form
+    public partial class Timkiem : Form
     {
-        public Form2()
+        public Timkiem()
         {
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace quanlykho
 {
-    public partial class Form2 : Form
+    public partial class Thongke : Form
     {
-        public Form2()
+        public Thongke()
         {
             InitializeComponent();
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

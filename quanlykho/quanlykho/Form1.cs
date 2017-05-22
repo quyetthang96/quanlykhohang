@@ -51,5 +51,34 @@ namespace quanlykho
         {
 
         }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            formThemnhap t = new formThemnhap();
+            t.Show();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Xuathang t = new Xuathang();
+            t.ShowDialog();
+        }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            Timkiem t = new Timkiem();
+            t.ShowDialog();
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            Thongke t = new Thongke();
+            t.ShowDialog();
+        }
     }
 }
