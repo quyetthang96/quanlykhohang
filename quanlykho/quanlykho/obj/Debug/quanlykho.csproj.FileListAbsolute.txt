@@ -27,3 +27,6 @@ F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanly
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Properties.Resources.resources
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.csproj.GenerateResource.Cache
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Timkiem.resources
+F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.formThemnhap.resources
+F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Thongke.resources
+F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Xuathang.resources
