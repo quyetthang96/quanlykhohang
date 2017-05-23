@@ -125,6 +125,7 @@
   <ItemGroup>
     <Content Include="img\background-14.png" />
     <Content Include="img\background-pictures-1104676636.jpg" />
+    <Content Include="img\hinh-kho-may-max-9415-6-1.jpg" />
     <Content Include="img\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
