@@ -21,5 +21,15 @@ namespace quanlykho
         {
 
         }
+
+        private void txttim_changed(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Timkiem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
