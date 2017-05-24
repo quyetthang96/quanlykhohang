@@ -30,3 +30,17 @@ F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanly
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.formThemnhap.resources
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Thongke.resources
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Xuathang.resources
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\bin\Debug\quanlykho.exe.config
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.exe
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.pdb
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.csprojResolveAssemblyReference.cache
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Form1.resources
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Form2.resources
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.formThemnhap.resources
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Properties.Resources.resources
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Thongke.resources
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Timkiem.resources
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Xuathang.resources
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.csproj.GenerateResource.Cache
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\bin\Debug\quanlykho.exe
+C:\Users\8470p\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\bin\Debug\quanlykho.pdb
