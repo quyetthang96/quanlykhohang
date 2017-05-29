@@ -101,8 +101,10 @@
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem7.ShortcutKeys = System.Windows.Forms.Keys.F1;
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(202, 22);
             this.toolStripMenuItem7.Text = "Hướng dẫn sử dụng ";
+            this.toolStripMenuItem7.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
             // 
             // Form1
             // 

@@ -80,5 +80,11 @@ namespace quanlykho
             Thongke t = new Thongke();
             t.ShowDialog();
         }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            frmHuongDan f = new frmHuongDan();
+            f.ShowDialog();
+        }
     }
 }
