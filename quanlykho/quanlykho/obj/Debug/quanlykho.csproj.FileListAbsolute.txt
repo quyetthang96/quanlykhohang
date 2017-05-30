@@ -59,3 +59,6 @@ C:\Users\Nope\Desktop\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Timk
 C:\Users\Nope\Desktop\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Xuathang.resources
 C:\Users\Nope\Desktop\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.csproj.GenerateResource.Cache
 C:\Users\Nope\Desktop\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.frmHuongDan.resources
+C:\Users\HOAITT\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\bin\Debug\quanlykho.exe.config
+C:\Users\HOAITT\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.exe
+C:\Users\HOAITT\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.pdb
