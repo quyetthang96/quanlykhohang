@@ -16,7 +16,7 @@ namespace quanlykho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formThemnhap());
+            Application.Run(new Timkiem());
         }
     }
 }

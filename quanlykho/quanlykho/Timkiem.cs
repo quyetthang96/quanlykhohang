@@ -13,7 +13,9 @@ namespace quanlykho
 {
     public partial class Timkiem : Form
     {
-        SqlConnection con = new SqlConnection("data source=8470P-PC\\CNTTSQL;initial catalog=quanlykho;integrated security=True;MultipleActiveResultSets=True");
+
+        SqlConnection con = new SqlConnection("Data Source=QUYETTHANG;Initial Catalog=quanlykho;Integrated Security = True");
+        //SqlConnection con = new SqlConnection("data source=8470P-PC\\CNTTSQL;initial catalog=quanlykho;integrated security=True;MultipleActiveResultSets=True");
         public Timkiem()
         {
             InitializeComponent();
@@ -21,11 +23,11 @@ namespace quanlykho
         void Hienthi()
         {
             con.Open();
-            string str = string.Format("select hh.ma_hh as[mã hàng hóa],hh.ten_hh as [Tên hàng hóa],hh.ma_nhom as[Nhóm hàng hóa],hh.dvt as[dvt] from hanghoa hh");
+            string str = string.Format("select * from hanghoa hh");
             SqlDataAdapter da = new SqlDataAdapter(str, con);
             DataTable dt = new DataTable();
             da.Fill(dt);
-            dataGridView1.DataSource = dt;
+            dg1.DataSource = dt;
             con.Close();
         }
         private void btnTimKiem_Click(object sender, EventArgs e)
@@ -38,8 +40,74 @@ namespace quanlykho
             SqlDataAdapter da = new SqlDataAdapter(sc);
             DataTable dt = new DataTable();
             da.Fill(dt);
-            dataGridView1.DataSource = dt;
+            dg1.DataSource = dt;
             con.Close();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Timkiem_Load(object sender, EventArgs e)
+        {
+            Hienthi();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string tk = "insert into hanghoa(ma_hh,ten_hh,dvt) values('" + txtmahang.Text+"','"+txtten.Text+"','"+cbmdvt.Text+"') ";
+            SqlCommand comm = new SqlCommand(tk, con);
+            SqlDataAdapter da = new SqlDataAdapter(comm);
+            comm.ExecuteNonQuery();
+            con.Close();
+            Hienthi();
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string tk = "update  hanghoa set ten_hh ='"+ txtten.Text + "', dvt='" + cbmdvt.Text + "' where ma_hh ='"+txtmahang.Text+"' ";
+            SqlCommand comm = new SqlCommand(tk, con);
+            SqlDataAdapter da = new SqlDataAdapter(comm);
+            comm.ExecuteNonQuery();
+            con.Close();
+            Hienthi();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = dg1.CurrentRow.Index;
+            txtmahang.Text = dg1.Rows[index].Cells[0].Value.ToString();
+            txtten.Text = dg1.Rows[index].Cells[1].Value.ToString();
+            cbmdvt.Text = dg1.Rows[index].Cells[2].Value.ToString();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string tk = "delete  hanghoa where ma_hh ='" +txtmahang.Text + "' ";
+            string kt = "delete CTphieuxuat where  ma_hh ='" + txtmahang.Text + "' ";
+            string xoa = " delete chitietphieunhap where  ma_hh ='" + txtmahang.Text + "' ";
+            SqlCommand comm = new SqlCommand(tk, con);
+            SqlCommand comm2 = new SqlCommand(kt, con);
+            SqlCommand comm3 = new SqlCommand(xoa, con);      
+            comm.ExecuteNonQuery();
+            comm2.ExecuteNonQuery();
+            comm3.ExecuteNonQuery();
+            con.Close();
+            Hienthi();
+
+        }
+
+       
     }
 }
