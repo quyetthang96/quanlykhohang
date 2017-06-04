@@ -53,6 +53,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.groupBox1.Controls.Add(this.cbmahh);
             this.groupBox1.Controls.Add(this.cbmakho);
             this.groupBox1.Controls.Add(this.cbnhacc);
@@ -75,7 +76,6 @@
             this.groupBox1.Size = new System.Drawing.Size(756, 172);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // cbmahh
             // 
