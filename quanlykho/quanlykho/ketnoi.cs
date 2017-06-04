@@ -12,7 +12,7 @@ namespace quanlykho
 
         public static SqlConnection Conn()
         {
-            string connString = @"Data Source=QUYETTHANG;Initial Catalog=quanlykho;Integrated Security=True";
+            string connString = "server = HP6460B - PC\\SQLEXPRESS; database = QLHH; integrated security = SSPI";
             SqlConnection conn = new SqlConnection(connString);
             return conn;
         }

@@ -63,3 +63,18 @@ C:\Users\HOAITT\Documents\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\qua
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.frmHuongDan.resources
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.menu.resources
 F:\hoc tap\thuctapnhom\github\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.dangnhap.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\bin\Debug\quanlykho.exe.config
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.exe
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.pdb
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\bin\Debug\quanlykho.exe
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\bin\Debug\quanlykho.pdb
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.csprojResolveAssemblyReference.cache
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.menu.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.dangnhap.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.formThemnhap.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.frmHuongDan.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Properties.Resources.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Thongke.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Timkiem.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.Xuathang.resources
+F:\GitHub\quanlykhohang\quanlykho\quanlykho\obj\Debug\quanlykho.csproj.GenerateResource.Cache

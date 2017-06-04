@@ -13,7 +13,8 @@ namespace quanlykho
 {
     public partial class formThemnhap : Form
     {
-        SqlConnection conn = new SqlConnection("Data Source=QUYETTHANG;Initial Catalog=quanlykho;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("server = HP6460B - PC\\SQLEXPRESS; database = QLHH; integrated security = SSPI");
+        //SqlConnection conn = new SqlConnection("Data Source=QUYETTHANG;Initial Catalog=quanlykho;Integrated Security=True");
         public formThemnhap()
         {
             InitializeComponent();
