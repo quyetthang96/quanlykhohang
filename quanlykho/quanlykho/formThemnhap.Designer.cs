@@ -37,10 +37,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.xxxx = new System.Windows.Forms.Label();
             this.btXoa = new System.Windows.Forms.Button();
@@ -48,10 +45,7 @@
             this.btthem = new System.Windows.Forms.Button();
             this.txtdongia = new System.Windows.Forms.TextBox();
             this.txtsoluong = new System.Windows.Forms.TextBox();
-            this.txttaikhoan = new System.Windows.Forms.TextBox();
             this.txtmpn = new System.Windows.Forms.TextBox();
-            this.txtnd = new System.Windows.Forms.TextBox();
-            this.txtnggiao = new System.Windows.Forms.TextBox();
             this.dg1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg1)).BeginInit();
@@ -67,10 +61,7 @@
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.xxxx);
             this.groupBox1.Controls.Add(this.btXoa);
@@ -78,10 +69,7 @@
             this.groupBox1.Controls.Add(this.btthem);
             this.groupBox1.Controls.Add(this.txtdongia);
             this.groupBox1.Controls.Add(this.txtsoluong);
-            this.groupBox1.Controls.Add(this.txttaikhoan);
             this.groupBox1.Controls.Add(this.txtmpn);
-            this.groupBox1.Controls.Add(this.txtnd);
-            this.groupBox1.Controls.Add(this.txtnggiao);
             this.groupBox1.Location = new System.Drawing.Point(0, 37);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(756, 172);
@@ -92,7 +80,7 @@
             // cbmahh
             // 
             this.cbmahh.FormattingEnabled = true;
-            this.cbmahh.Location = new System.Drawing.Point(314, 68);
+            this.cbmahh.Location = new System.Drawing.Point(325, 49);
             this.cbmahh.Name = "cbmahh";
             this.cbmahh.Size = new System.Drawing.Size(121, 21);
             this.cbmahh.TabIndex = 26;
@@ -100,7 +88,7 @@
             // cbmakho
             // 
             this.cbmakho.FormattingEnabled = true;
-            this.cbmakho.Location = new System.Drawing.Point(314, 41);
+            this.cbmakho.Location = new System.Drawing.Point(91, 76);
             this.cbmakho.Name = "cbmakho";
             this.cbmakho.Size = new System.Drawing.Size(121, 21);
             this.cbmakho.TabIndex = 25;
@@ -109,7 +97,7 @@
             // cbnhacc
             // 
             this.cbnhacc.FormattingEnabled = true;
-            this.cbnhacc.Location = new System.Drawing.Point(551, 70);
+            this.cbnhacc.Location = new System.Drawing.Point(325, 14);
             this.cbnhacc.Name = "cbnhacc";
             this.cbnhacc.Size = new System.Drawing.Size(121, 21);
             this.cbnhacc.TabIndex = 24;
@@ -143,7 +131,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(238, 71);
+            this.label8.Location = new System.Drawing.Point(226, 49);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(70, 13);
             this.label8.TabIndex = 20;
@@ -152,20 +140,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(252, 42);
+            this.label7.Location = new System.Drawing.Point(20, 79);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 13);
             this.label7.TabIndex = 19;
             this.label7.Text = "Mã kho";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(252, 19);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 13);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Tài Khoản";
             // 
             // label5
             // 
@@ -177,28 +156,10 @@
             this.label5.Text = "Mã phiếu";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 105);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 13);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Nội dung";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 78);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Người Giao";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(441, 71);
+            this.label2.Location = new System.Drawing.Point(226, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 13);
             this.label2.TabIndex = 14;
@@ -258,33 +219,12 @@
             this.txtsoluong.Size = new System.Drawing.Size(121, 20);
             this.txtsoluong.TabIndex = 8;
             // 
-            // txttaikhoan
-            // 
-            this.txttaikhoan.Location = new System.Drawing.Point(314, 15);
-            this.txttaikhoan.Name = "txttaikhoan";
-            this.txttaikhoan.Size = new System.Drawing.Size(121, 20);
-            this.txttaikhoan.TabIndex = 5;
-            // 
             // txtmpn
             // 
             this.txtmpn.Location = new System.Drawing.Point(91, 16);
             this.txtmpn.Name = "txtmpn";
             this.txtmpn.Size = new System.Drawing.Size(120, 20);
             this.txtmpn.TabIndex = 4;
-            // 
-            // txtnd
-            // 
-            this.txtnd.Location = new System.Drawing.Point(91, 98);
-            this.txtnd.Name = "txtnd";
-            this.txtnd.Size = new System.Drawing.Size(217, 20);
-            this.txtnd.TabIndex = 3;
-            // 
-            // txtnggiao
-            // 
-            this.txtnggiao.Location = new System.Drawing.Point(91, 71);
-            this.txtnggiao.Name = "txtnggiao";
-            this.txtnggiao.Size = new System.Drawing.Size(120, 20);
-            this.txtnggiao.TabIndex = 2;
             // 
             // dg1
             // 
@@ -319,10 +259,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label xxxx;
         private System.Windows.Forms.Button btXoa;
@@ -330,10 +267,7 @@
         private System.Windows.Forms.Button btthem;
         private System.Windows.Forms.TextBox txtdongia;
         private System.Windows.Forms.TextBox txtsoluong;
-        private System.Windows.Forms.TextBox txttaikhoan;
         private System.Windows.Forms.TextBox txtmpn;
-        private System.Windows.Forms.TextBox txtnd;
-        private System.Windows.Forms.TextBox txtnggiao;
         private System.Windows.Forms.ComboBox cbmakho;
         private System.Windows.Forms.ComboBox cbnhacc;
         private System.Windows.Forms.DataGridView dg1;

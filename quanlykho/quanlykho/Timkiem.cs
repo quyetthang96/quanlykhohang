@@ -37,11 +37,13 @@ namespace quanlykho
             SqlCommand sc = new SqlCommand(str, con);
             sc.CommandType = CommandType.StoredProcedure;
             sc.Parameters.Add(new SqlParameter("@keyword", txttim.Text));
-            SqlDataAdapter da = new SqlDataAdapter(sc);
+            sc.ExecuteNonQuery();
+            SqlDataReader dr = sc.ExecuteReader();
             DataTable dt = new DataTable();
-            da.Fill(dt);
+            dt.Load(dr);
             dg1.DataSource = dt;
             con.Close();
+
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
