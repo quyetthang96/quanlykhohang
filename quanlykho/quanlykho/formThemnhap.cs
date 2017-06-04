@@ -13,7 +13,7 @@ namespace quanlykho
 {
     public partial class formThemnhap : Form
     {
-        SqlConnection conn = new SqlConnection("server = HP6460B - PC\\SQLEXPRESS; database = QLHH; integrated security = SSPI");
+        SqlConnection conn = new SqlConnection("server = HP6460B - PC\\SQLEXPRESS; database = QLKH; integrated security = SSPI");
         //SqlConnection conn = new SqlConnection("Data Source=QUYETTHANG;Initial Catalog=quanlykho;Integrated Security=True");
         public formThemnhap()
         {
@@ -28,19 +28,12 @@ namespace quanlykho
             da.Fill(tb);
             dg1.DataSource = tb;
             dg1.Columns[0].HeaderText = "Mã phiếu nhập";
-            dg1.Columns[0].Width = 130;
             dg1.Columns[1].HeaderText = "Ngày nhập hàng";
-            dg1.Columns[1].Width = 130;
             dg1.Columns[2].HeaderText = "Mã Nhà cung cấp";
-            dg1.Columns[2].Width = 150;
             dg1.Columns[3].HeaderText = "Mã Kho";
-            dg1.Columns[3].Width = 130;
             dg1.Columns[4].HeaderText = "Mã Hàng Hóa";
-            dg1.Columns[4].Width = 130;
             dg1.Columns[5].HeaderText = "Số lượng";
-            dg1.Columns[5].Width = 130;
             dg1.Columns[6].HeaderText = "Đơn giá";
-            dg1.Columns[6].Width = 130;
             conn.Close();
         }
         private void label5_Click(object sender, EventArgs e)

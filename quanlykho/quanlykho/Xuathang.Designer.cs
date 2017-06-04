@@ -104,10 +104,12 @@
             // 
             // dg1
             // 
+            this.dg1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dg1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dg1.Location = new System.Drawing.Point(30, 257);
+            this.dg1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dg1.Location = new System.Drawing.Point(0, 269);
             this.dg1.Name = "dg1";
-            this.dg1.Size = new System.Drawing.Size(653, 185);
+            this.dg1.Size = new System.Drawing.Size(734, 185);
             this.dg1.TabIndex = 104;
             this.dg1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dg1_CellClick);
             // 
