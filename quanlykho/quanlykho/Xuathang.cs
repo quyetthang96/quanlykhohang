@@ -16,5 +16,10 @@ namespace quanlykho
         {
             InitializeComponent();
         }
+
+        private void Xuathang_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

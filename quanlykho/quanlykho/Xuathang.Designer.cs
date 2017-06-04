@@ -288,6 +288,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Xuathang";
             this.Text = "Xuathang";
+            this.Load += new System.EventHandler(this.Xuathang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtPhong)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
