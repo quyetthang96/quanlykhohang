@@ -47,16 +47,16 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txttim);
             this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Location = new System.Drawing.Point(18, 17);
+            this.groupBox1.Location = new System.Drawing.Point(-3, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(835, 100);
+            this.groupBox1.Size = new System.Drawing.Size(958, 135);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn Tiêu chí";
             // 
             // btnTimKiem
             // 
-            this.btnTimKiem.Location = new System.Drawing.Point(568, 31);
+            this.btnTimKiem.Location = new System.Drawing.Point(558, 16);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(116, 31);
             this.btnTimKiem.TabIndex = 3;
@@ -68,7 +68,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 38);
+            this.label1.Location = new System.Drawing.Point(26, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 16);
             this.label1.TabIndex = 2;
@@ -77,7 +77,7 @@
             // txttim
             // 
             this.txttim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttim.Location = new System.Drawing.Point(287, 34);
+            this.txttim.Location = new System.Drawing.Point(285, 25);
             this.txttim.Name = "txttim";
             this.txttim.Size = new System.Drawing.Size(251, 22);
             this.txttim.TabIndex = 1;
@@ -89,7 +89,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "mahanghoa",
             "TenHang"});
-            this.comboBox1.Location = new System.Drawing.Point(98, 34);
+            this.comboBox1.Location = new System.Drawing.Point(99, 23);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(161, 24);
             this.comboBox1.TabIndex = 0;
@@ -104,7 +104,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(-3, 142);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(873, 169);
+            this.dataGridView1.Size = new System.Drawing.Size(958, 233);
             this.dataGridView1.TabIndex = 1;
             // 
             // Timkiem
@@ -112,7 +112,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(865, 311);
+            this.ClientSize = new System.Drawing.Size(950, 375);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Timkiem";

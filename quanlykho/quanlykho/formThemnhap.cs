@@ -139,14 +139,15 @@ namespace quanlykho
                 comm.ExecuteNonQuery();
                 conn.Close();
                 MessageBox.Show("Xóa thành công");
+                hienthi();
+
             }
             catch
             {
                 MessageBox.Show("Xóa lỗi");
             }
 
-            hienthi();
-
+           
         }
 
 
