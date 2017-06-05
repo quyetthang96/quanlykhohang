@@ -16,7 +16,7 @@ namespace quanlykho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Thongke());
+            Application.Run(new dangnhap());
         }
     }
 }

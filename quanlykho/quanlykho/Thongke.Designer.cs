@@ -143,6 +143,7 @@
             this.Controls.Add(this.dtp1);
             this.Name = "Thongke";
             this.Text = "Thongke";
+            this.Load += new System.EventHandler(this.Thongke_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);

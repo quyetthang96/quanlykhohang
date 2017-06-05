@@ -95,6 +95,7 @@
             this.wbw_huongdan.Name = "wbw_huongdan";
             this.wbw_huongdan.Size = new System.Drawing.Size(989, 453);
             this.wbw_huongdan.TabIndex = 1;
+            this.wbw_huongdan.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.wbw_huongdan_DocumentCompleted);
             // 
             // frmHuongDan
             // 

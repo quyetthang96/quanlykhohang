@@ -19,7 +19,7 @@ namespace quanlykho
 
         private void tmns_huongdan_Click(object sender, EventArgs e)
         {   
-            string file = "D:\\HDSD\\HDSD.mhtml";
+            string file = "F:\\HDSD\\HDSD.mhtml";
             //file = "HDSD.mhtml";
             //string html = System.IO.File.ReadAllText(file);
             //wbw_huongdan.DocumentText = html;
@@ -33,26 +33,31 @@ namespace quanlykho
 
         private void tmns_nhaphang_Click(object sender, EventArgs e)
         {
-            string file = "D:\\HDSD\\Nhập hàng.mhtml";
+            string file = "F:\\HDSD\\Nhập hàng.mhtml";
             wbw_huongdan.Url = new Uri(file);
         }
 
         private void tmns_xuathang_Click(object sender, EventArgs e)
         {
-            string file = "D:\\HDSD\\Xuất hàng.mhtml";
+            string file = "F:\\HDSD\\Xuất hàng.mhtml";
             wbw_huongdan.Url = new Uri(file);
         }
 
         private void tmns_timkiem_Click(object sender, EventArgs e)
         {
-            string file = "D:\\HDSD\\Tìm kiếm.mhtml";
+            string file = "F:\\HDSD\\Tìm kiếm.mhtml";
             wbw_huongdan.Url = new Uri(file);
         }
 
         private void tmns_thongke_Click(object sender, EventArgs e)
         {
-            string file = "D:\\HDSD\\Thống kê.mhtml";
+            string file = "F:\\HDSD\\Thống kê.mhtml";
             wbw_huongdan.Url = new Uri(file);
+        }
+
+        private void wbw_huongdan_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
         }
     }
 }
